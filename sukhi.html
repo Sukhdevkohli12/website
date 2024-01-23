@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <style>
+*{
+padding: 0;
+margin: 0;
+}
+nav{
+display: flex;
+background-color: blueviolet;
+
+align-items: center;
+height: 150px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 80px;
+
+}
+.menu_items{
+    width: 80%;
+
+}
+.logo{
+    width: 20%
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+a:hover{
+    color: olivedrab;
+} 
+.hero{
+    background: url(./pexels-pixabay-207684.jpg);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+opacity: .9;
+}
+.hero h1{
+   font-size: 150px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
+}
+</style>
+
+    
+    <title>Project</title>
+</head>
+<body>
+  
+    <nav>
+      <div class="logo">
+        <img src="./apple.jpeg" alt="" height="100px">
+      </div>
+      <div class="menu_items">
+        <ul type="none">
+            <li><a href="">Home</a></li>
+            <li><a href="">About us</a></li>
+            <li><a href="">Our course</a></li>
+            <li><a href="">Gallery</a></li>
+            <li><a href="">Contact Us</a></li>
+    </ul>
+</div>
+    </nav>
+    <div class="hero">
+        <h1>Welcome to the library</h1>
+    </div>
+</body>
+</html>
